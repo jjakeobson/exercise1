@@ -1,0 +1,14 @@
+= render partial: 'postgresql/databases/header'
+= render partial: 'postgresql/databases/nav'
+
+- main_header 'Tables'
+
+- main
+  .wide
+    .box-table
+      .table-head
+        .table-row
+          .table-cell name
+      - tables.each do |table|
+        .table-row
+          .table-cell = table.name
