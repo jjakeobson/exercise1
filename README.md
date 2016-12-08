@@ -1,14 +1,10 @@
-# Application Developer Work Sample
-
-Work sample to be completed to apply for the application developer position at Compose.
-
 ## Context
 
-At Compose, we have multiple apps being served on the app.compose.io domain. These apps all use the same basic CSS and JavaScript through a UI framework we built called Megatron.
+At The Company, we have multiple apps being served on the app.compose.io domain. These apps all use the same basic CSS and JavaScript through a UI framework we built called Megatron.
 
-The app in this repository is a Rails app which only serves a few routes. That's similar to our reality at Compose, where apps are specialized.
+The app in this repository is a Rails app which only serves a few routes. That's similar to our reality at The Company, where apps are specialized.
 
-To test your abilities, we've created a **very** incomplete app which has the responsibility of exposing a UI to our users for browsing their PostgreSQL deployment.
+We've created a **very** incomplete app which has the responsibility of exposing a UI to our users for browsing their PostgreSQL deployment.
 
 We use appropriately-sized services to expose our data to our various apps. To simulate this condition, we created a small service (hosted at:https://compose-dummy-api.herokuapp.com/) which provides basic account details and deployment information. All of this is fake and modeled to work with this app.
 
